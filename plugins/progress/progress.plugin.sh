@@ -41,7 +41,7 @@ function progress()
       printf "Options:\n"
       printf "  value    The value for the progress bar. Use 0 to reset.\n"
       printf "  message  The optional message to display next to the progress bar.\n"
-      return 0
+      return 2
     fi
 
     if [ $value -lt 0 ]; then
