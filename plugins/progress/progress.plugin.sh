@@ -56,7 +56,7 @@ function progress()
     fi
 
     # Clear the message whitespace
-    local size=40-${#message}
+    local size=$((40-${#message}))
     local whitespace=""
     for ((i=0; i<size; i++)); do
       whitespace="$whitespace "
