@@ -67,7 +67,7 @@ function progress()
       fi
     fi
     if [ -z $clear_line ]; then
-      clear_line="\e[K"
+      clear_line=$'\e[K'
     fi
 
     if [ $_omb_plugin_progress_value -le 0 -a $value -ge 0 ]  ; then printf "%s[....................] (0%%)  %s\r" "$clear_line" "$message" ; delay; fi;
