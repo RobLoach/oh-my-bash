@@ -57,15 +57,7 @@ function progress()
 
     # Get a clear line escape sequence
     local clear_line
-    if _omb_util_command_exists 'tput'; then
-      clear_line=$(tput el)
-      if [ -z $clear_line ]; then
-        clear_line=$(tput el1)
-        if [ -z $clear_line ]; then
-          clear_line=$(tput ce)
-        fi
-      fi
-    fi
+    clear_line=$(tput el 2>/dev/null || tput ce 2>/dev/null)
     if [ -z $clear_line ]; then
       clear_line=$'\e[K'
     fi
