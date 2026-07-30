@@ -74,7 +74,7 @@ _omb_plugin_donottrack_set ET_NO_TELEMETRY 1 # EternalTerminal
 _omb_plugin_donottrack_set FASTLANE_OPT_OUT_USAGE YES
 _omb_plugin_donottrack_set FLUTTER_SUPPRESS_ANALYTICS true
 _omb_plugin_donottrack_set GLAB_SEND_TELEMETRY false # Gitlab
-_omg_plugin_donottrack_set GOTELEMETRY off # Go
+_omb_plugin_donottrack_set GOTELEMETRY off # Go
 _omb_plugin_donottrack_set HASURA_GRAPHQL_ENABLE_TELEMETRY false # Hasura
 _omb_plugin_donottrack_set K6_NO_USAGE_REPORT true
 _omb_plugin_donottrack_set NUKE_TELEMETRY_OPTOUT 1
