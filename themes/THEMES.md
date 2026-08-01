@@ -51,6 +51,10 @@
 
 [![](cooperkid/cooperkid-dark.png)](cooperkid/cooperkid-dark.png)
 
+## `copied-duru`
+
+[![](copied-duru/copied-duru-dark.png)](copied-duru/copied-duru-dark.png)
+
 ## `cupcake`
 
 [![](cupcake/cupcake-dark.png)](cupcake/cupcake-dark.png)
@@ -107,6 +111,10 @@
 
 [![](gallifrey/gallifrey-dark.png)](gallifrey/gallifrey-dark.png)
 
+## `garo`
+
+[![](garo/garo-dark.png)](garo/garo-dark.png)
+
 ## `half-life`
 
 [![](half-life/half-life.theme.png)](half-life/half-life.theme.png)
@@ -134,6 +142,10 @@
 ## `luan`
 
 [![](luan/luan-dark.png)](luan/luan-dark.png)
+
+## `lucky`
+
+[![](lucky/lucky-dark.png)](lucky/lucky-dark.png)
 
 ## `mairan`
 
@@ -166,6 +178,18 @@
 ## `n0qorg`
 
 [![](n0qorg/n0qorg-dark.png)](n0qorg/n0qorg-dark.png)
+
+## `nekolight`
+
+[![](nekolight/nekolight-dark.jpg)](nekolight/nekolight-dark.jpg)
+
+## `nekonight`
+
+[![](nekonight/nekonight-dark.jpg)](nekonight/nekonight-dark.jpg)
+
+## `nekonight_moon`
+
+[![](nekonight_moon/nekonight_moon-dark.jpg)](nekonight_moon/nekonight_moon-dark.jpg)
 
 ## `nwinkler`
 
