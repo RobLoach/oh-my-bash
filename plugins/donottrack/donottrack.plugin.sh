@@ -6,9 +6,9 @@
 # Opt out of the telemetry and usage reporting of various CLI applications by
 # exporting the environment variables they check.
 
-# Export the variable "$1" with the value "$2" unless it is already set.
+# Export the variable "$1" with the value "$2", keeping any existing value.
 function _omb_plugin_donottrack_set {
-  [[ ${!1+set} ]] || export "$1=$2"
+  export "$1=${!1-$2}"
 }
 
 # Generic
