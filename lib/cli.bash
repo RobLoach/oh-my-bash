@@ -30,12 +30,13 @@ function _omb_cmd_theme {
       _omb_util_print 'Usage: omb theme use <theme>' >&2
       return 2
     fi
-    local path
-    if ! _omb_module_search theme "$theme"; then
+    local -a available_themes
+    _comp_cmd_omb__get_available_themes
+    if ! _omb_util_array_contains available_themes "$theme"; then
       _omb_util_print "Theme '$theme' not found" >&2
       return 1
     fi
-    source "$path"
+    _omb_module_require_theme "$theme"
     ;;
   set)
     echo 'Not yet implemented'
